@@ -1,0 +1,22 @@
+{
+  "include": ["remix.env.d.ts", "src/**/*.{ts,tsx}"],
+  "compilerOptions": {
+    "module": "esnext",
+    "lib": ["DOM", "DOM.Iterable", "ES2020"],
+    "target": "ESNext",
+    "importHelpers": true,
+    "declaration": true,
+    "noImplicitAny": true,
+    "strict": true,
+    "sourceMap": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "moduleResolution": "node",
+    "jsx": "react",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "importsNotUsedAsValues": "error"
+  }
+}

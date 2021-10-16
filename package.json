@@ -1,0 +1,57 @@
+{
+  "name": "@girish_kumar/remix-utils",
+  "version": "0.0.6",
+  "description": "Useful Remix utils",
+  "main": "dist/index.js",
+  "module": "dist/remix-utils.esm.js",
+  "typings": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsdx build --target node",
+    "lint": "tsdx lint",
+    "postinstall": "remix setup node",
+    "prepare": "tsdx build --target node",
+    "start": "tsdx watch",
+    "test": "tsdx test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Girish21/remix-utils"
+  },
+  "keywords": [
+    "remix",
+    "remix.run",
+    "react",
+    "typescript",
+    "remix-utils"
+  ],
+  "author": "Girish",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Girish21/remix-utils/issues"
+  },
+  "homepage": "https://github.com/Girish21/remix-utils#readme",
+  "peerDependencies": {
+    "@remix-run/dev": "^0.19.3",
+    "@remix-run/node": "^0.19.3",
+    "@remix-run/react": "^0.19.3",
+    "react": "^17.0.2",
+    "react-router-dom": "^6.0.0-beta.6",
+    "remix": "^0.19.3"
+  },
+  "devDependencies": {
+    "@remix-run/dev": "^0.19.3",
+    "@remix-run/node": "^0.19.3",
+    "@remix-run/react": "^0.19.3",
+    "@types/react": "^17.0.30",
+    "react": "^17.0.2",
+    "react-router-dom": "^6.0.0-beta.6",
+    "remix": "^0.19.3",
+    "tsdx": "^0.14.1",
+    "tslib": "^2.3.1",
+    "typescript": "^4.2.4"
+  },
+  "sideEffects": false
+}
